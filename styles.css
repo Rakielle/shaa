@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand img {
+    width: 80px;
+}
+.brand-name h2 {
+    color: rgb(174,35,5);
+    
+    font-weight: bold;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+.navbar-links { 
+    padding: 5px;
+}
+.links {
+    margin-right: 20px;
+    font-size: 16px;
+    color: rgb(43, 41, 41);
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.active {
+    color: rgb(190,32,22);
+    border-bottom: 3px solid rgb(190,32,22);
+}
+.links:hover {
+    color: rgb(190,32,22);
+    border-bottom: 3px solid rgb(190,32,22);
+}
+.banner img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+
+}
+
+/* Card Area  */
+.card-area {
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0px;
+}
+.cards {
+    border: 2px solid rgb(174,35,5);
+    border-top-right-radius: 20px;
+    max-width: 25%;
+    text-align: center;
+    padding: 30px 10px ;
+}
+.cards p {
+    color: #777;
+}
+/*Card Area End */
+
+/* Dialog Section */
+.dialog {
+    background-image: linear-gradient( rgb(165,0,0), rgb(26,26,26));
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+}
+.dialog-text {
+    text-align: justify;
+    width: 550px;
+}
+.dialog-img {
+    width: 450px;
+}
+.dialog img {
+    width: 100%;
+}
+.dialog-text h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.dialog-text p {
+    font-size: 18px;
+    color: #FFF
+}
+/* Dialog Section End */
+
+/* footer styles */
+footer {
+    height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(165,0,0), rgb(26,26,26), rgb(26,26,26));
+    color: white;
+}
+footer p{
+    padding-top: 15px;
+}
